@@ -1,0 +1,19 @@
+.home {
+  position: relative;
+  height: 100%;
+  align-content: center;
+  justify-items: center;
+  color: $first-color;
+  row-gap: 2rem;
+
+  &__title {
+    font-size: $h1-font-size-mobile;
+    font-weight: bold;
+  }
+
+  &__buttons {
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

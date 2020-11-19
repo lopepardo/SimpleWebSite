@@ -1,0 +1,1 @@
+const showMenu=(e,n)=>{const t=document.getElementById(e);const o=document.getElementById(n);if(t&&o){t.addEventListener("click",(()=>{o.classList.toggle("show")}))}};showMenu("nav-toggle","nav-menu");
